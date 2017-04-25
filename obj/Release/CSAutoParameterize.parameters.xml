@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=C:\UNSW\Research\CrowdHippo\App_Data\CrowdHippo.mdf;Initial Catalog=CrowdHippoDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\UNSW\\Research\\CrowdHeyna\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="CrowdHeynaEntities-Web.config Connection String" description="CrowdHeynaEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/CrowdHeyna.csdl|res://*/CrowdHeyna.ssdl|res://*/CrowdHeyna.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDb)\MSSQLLocalDB;attachdbfilename=C:\UNSW\Research\CrowdHippo\App_Data\CrowdHippo.mdf;initial catalog=CrowdHippoDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\UNSW\\Research\\CrowdHeyna\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CrowdHeynaEntities']/@connectionString" />
+  </parameter>
+</parameters>

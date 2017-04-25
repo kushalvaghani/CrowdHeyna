@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae584dac31134a80ae67d0d324dd4b65" Name="Diagram1">
+        <EntityTypeShape EntityType="CrowdHippoModel.AspNetUser" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrowdHippoModel.Keyword" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrowdHippoModel.Source" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrowdHippoModel.Tag" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrowdHippoModel.UserKeywordTag" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CrowdHippoModel.User" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="CrowdHippoModel.FK__Keywords__Source__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__Keywo__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__TagId__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__UserI__4D94879B" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="CrowdHippoModel.UserKeywordTagSuggestion" Width="1.5" PointX="8.25" PointY="3.5" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__Keywo__5CD6CB2B" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__TagId__5DCAEF64" />
+        <AssociationConnector Association="CrowdHippoModel.FK__UserKeywo__UserI__5EBF139D" />
+        <EntityTypeShape EntityType="CrowdHippoModel.Tweet" Width="1.5" PointX="8.375" PointY="7.875" />
+        <AssociationConnector Association="CrowdHippoModel.FK__Keywords__TweetI__3A81B327" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
